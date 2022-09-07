@@ -4,13 +4,44 @@ html {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    animation-name: hatter;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
 }
 
 table {
-    border: 3px solid black;
+    border: 10px double blue;
+    margin: auto;
+    font-size: 150%;
+    text-align: center;
+}
+
+.cim {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 200%;
+}
+
+.cimek {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+header {
+    margin: auto;
+    text-align: center;
+}
+
+img {
+    border-radius: 10%;
+    border-bottom: 10px solid blue;
+    height: 5cm;
     margin: auto;
 }
 
- {
-    margin: auto;
+@keyframes hatter {
+    0%  {background-image: url(nyár.jpg);}
+    25%  {background-image: url(nyár2.jpg);}
+    50%  {background-image: url(nyár3.jpg);}
+    100%  {background-image: url(nyár4.jpg);}
 }
